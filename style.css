@@ -745,6 +745,10 @@ span {
     padding-bottom: 7rem;
   }
 
+  .skills .wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
   .projects .wrapper {
     grid-template-columns: repeat(1, 1fr);
   }
