@@ -24,6 +24,7 @@
         <a href="#home" class="active">Home</a>
         <a href="#education">Education</a>
         <a href="#services">Services</a>
+        <a href="#skills">Skills</a>
         <a href="#testimonials">Testimonials</a>
         <a href="#contact">Contact</a>
       </nav>
@@ -62,7 +63,9 @@
         </div>
 
         <div class="btn-group">
-          <a href="#" class="btn">Hire</a>
+          <a href="#" class="btn" style="display: flex; align-items: flex-end;">
+            <i class='bx bxs-download'></i>
+            Download Resume</a>
           <a href="#contact" class="btn">Contact</a>
         </div>
       </div>
@@ -79,46 +82,77 @@
           <div class="timeline-dot"></div>
           <div class="timeline-date">2012</div>
           <div class="timeline-content">
-            <h3>University - Estácio</h3>
+            <h3>Sistemas de Informação - <a href="https://estacio.br/" target="_blank">Universidade Estácio</a></h3>
+            <p>Graduação | Fev 2012 - Nov 2016</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2014</div>
+          <div class="timeline-content">
+            <h3>Inglês - <a href="https://www.wizard.com.br/" target="_blank">Wizard</a></h3>
+            <p>Curso de inglês | 2014 - 2019</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2017</div>
+          <div class="timeline-content">
+            <h3>Java Web Developer - <a href="https://www.cotiinformatica.com.br/" target="_blank">Coti Informática</a></h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-              quod. Quisquam, quod. Quisquam, qu
+              Java Orientado a Objetos | DDD - Domain Driven Design | TDD - Test
+              Driven Development | Angular | Spring Boot (APIs RESTFull e
+              arquitetura de microserviços) | Spring Data (JPA e Hibernate) |
+              PostGreSQL | MySQL | MongoDB
+            </p>
+            <br />
+            <p>2017 - 2018</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2018</div>
+          <div class="timeline-content">
+            <h3>Angular 6 - <a href="https://www.cotiinformatica.com.br/" target="_blank">Coti Informática</a></h3>
+            <p>
+              Material Design | Mapeamento de rotas | Forms e ReactiveForms |
+              FormControls e FormGroups | Observables | JWT | Interceptors |
+              Filters | Pipe | Directives
             </p>
           </div>
         </div>
 
         <div class="timeline-item">
           <div class="timeline-dot"></div>
-          <div class="timeline-date">2019</div>
+          <div class="timeline-date">2018</div>
           <div class="timeline-content">
-            <h3>Backend Developer - Java Spring</h3>
+            <h3>PostgreSQL (PL/pgSQL) - <a href="https://www.cotiinformatica.com.br/" target="_blank">Coti Informática</a></h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-              quod. Quisquam, quod. Quisquam, qu
+              Declarations | Expressions | Control Structures | Cursors |
+              Transaction Management | Errors and Messages | Trigger Functions
             </p>
           </div>
         </div>
 
         <div class="timeline-item">
           <div class="timeline-dot"></div>
-          <div class="timeline-date">2019</div>
+          <div class="timeline-date">2018</div>
           <div class="timeline-content">
-            <h3>Backend Developer - Java Spring</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-              quod. Quisquam, quod. Quisquam, qu
-            </p>
+            <h3>Scrum Fundamentals Certified - <a href="https://c46e136a583f7e334124-ac22991740ab4ff17e21daf2ed577041.ssl.cf1.rackcdn.com/Certificate/ScrumFundamentalsCertified-RodrigoFerreiraVellozo-644314.pdf" target="_blank"> SCRUMstudy</a></h3>
           </div>
         </div>
 
         <div class="timeline-item">
           <div class="timeline-dot"></div>
-          <div class="timeline-date">2023</div>
+          <div class="timeline-date">2020</div>
           <div class="timeline-content">
-            <h3>Frontend Developer - Angular</h3>
+            <h3>Python for Data Science - <a href="https://www.edx.org/" target="_blank"> edX UC San Diego</a></h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-              quod. Quisquam, quod. Quisquam, qu
+              jupyter notebooks | pandas | numpy | matplotlib | git scikit-learn
+              | nltk
             </p>
           </div>
         </div>
@@ -172,12 +206,10 @@
     </section>
 
     <section class="testimonials" id="testimonials">
-      
       <div class="testimonials-box">
         <h2 class="heading">Testimonials</h2>
 
         <div class="wrapper">
-
           <div class="testimonial-item">
             <img
               src="https://imagens.ebc.com.br/IobClYCj7GjG33Mw7vfsRF7p6rA=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2024/07/10/coutinho_vasco_foto_2.jpg?itok=fSiyEy4V"
@@ -245,27 +277,33 @@
         <div class="input-group">
           <div class="input-box">
             <input type="text" placeholder="Full Name" />
-            <input type="email" placeholder="E-mail">
+            <input type="email" placeholder="E-mail" />
           </div>
 
           <div class="input-box">
             <input type="number" placeholder="Phone Number" />
-            <input type="text" placeholder="Subject">
+            <input type="text" placeholder="Subject" />
           </div>
         </div>
         <div class="input-group-2">
-          <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
-          <input type="submit" value="Send Message" class="btn">
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Your Message"
+          ></textarea>
+          <input type="submit" value="Send Message" class="btn" />
         </div>
       </form>
     </section>
 
     <footer class="footer">
       <div class="social">
-        <a href="#" class="">
+        <a href="https://www.linkedin.com/in/rodrigo-vellozo-613a4139/" class="">
           <i class="bx bxl-linkedin"></i>
         </a>
-        <a href="#" class="">
+        <a href="https://github.com/RodrigoVellozo" class="">
           <i class="bx bxl-github"></i>
         </a>
         <a href="#" class="">
@@ -282,9 +320,7 @@
         <li><a href="#">Contact</a></li>
         <li><a href="#">Testimonials</a></li>
       </ul>
-      <p class="copyright">
-          &copy; Rodrigo Vellozo | All Rights Reserved
-      </p>
+      <p class="copyright">&copy; Rodrigo Vellozo | All Rights Reserved</p>
     </footer>
 
     <script src="script.js"></script>
