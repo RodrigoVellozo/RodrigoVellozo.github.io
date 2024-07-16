@@ -472,13 +472,12 @@ span {
   margin: auto;
 }
 
-/* TESTIMONIALS SECTION  */
-
-.testimonials {
+/* SKILLS SECTION  */
+.skills{
   background: var(--second-bg-color);
 }
 
-.testimonials-box {
+.skills-box {
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -486,11 +485,61 @@ span {
   justify-content: center;
 }
 
-.testimonials .heading {
+.skills .heading {
   margin-bottom: 5rem;
 }
 
-.testimonials-box img {
+.skills-box i {
+  font-size: 15rem;
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+}
+
+.skill-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 230px;
+  max-width: 450px;
+  margin: 0 2rem;
+  padding: 30px 60px;
+  background: rgba(0, 0, 0, 0.7);
+  border: 3px solid rgba(238, 238, 238, 0.2);
+  border-radius: 2rem;
+  cursor: pointer;
+  gap: 1.5rem;
+  color: white;
+  transition: 0.4s ease-in-out;
+}
+
+.skill-item:hover {
+  border: 3px solid var(--main-color);
+  transform: translateY(-10px) scale(1.03);
+  box-shadow: 0 0 50px var(--main-color);
+}
+
+/* PROJECTS SECTION  */
+
+.projects {
+  background: var(--bg-color);
+}
+
+.projects-box {
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.projects .heading {
+  margin-bottom: 5rem;
+}
+
+.projects-box img {
   width: 15rem;
   border-radius: 50%;
   border: 3px solid var(--main-color);
@@ -503,7 +552,7 @@ span {
   gap: 3rem;
 }
 
-.testimonial-item {
+.project-item {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -522,17 +571,17 @@ span {
   transition: 0.4s ease-in-out;
 }
 
-.testimonial-item:hover {
+.project-item:hover {
   border: 3px solid var(--main-color);
   transform: translateY(-10px) scale(1.03);
   box-shadow: 0 0 50px var(--main-color);
 }
 
-.testimonial-item h2 {
+.project-item h2 {
   font-size: 2.8rem;
 }
 
-.testimonial-item p {
+.project-item p {
   font-size: 1.3rem;
 }
 
@@ -541,10 +590,15 @@ span {
   font-size: 2rem;
 }
 
+#hosting{
+  display: flex;
+  font-size: 10rem;
+}
+
 /* CONTACT SECTION */
 
 .contact {
-  background-color: var(--bg-color);
+  background-color: var(--second-bg-color);
 }
 
 .contact h2 {
@@ -573,7 +627,7 @@ span {
   padding: 2.5rem;
   font-size: 1.8rem;
   color: var(--text-color);
-  background-color: var(--second-bg-color);
+  background-color: var(--bg-color);
   border-radius: 2rem;
   border: 2px solid var(--main-color);
   margin: 1.5rem 0;
@@ -589,7 +643,7 @@ span {
   bottom: 0;
   width: 100%;
   padding: 40px 0;
-  background-color: var(--second-bg-color);
+  background-color: var(--bg-color);
 }
 
 .footer .social {
@@ -690,7 +744,7 @@ span {
     padding-bottom: 7rem;
   }
 
-  .testimonials .wrapper {
+  .projects .wrapper {
     grid-template-columns: repeat(1, 1fr);
   }
 
