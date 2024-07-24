@@ -515,6 +515,11 @@ span {
   transition: 0.4s ease-in-out;
 }
 
+.skill-item-badge{
+  width: 15rem;
+  height: 15rem;
+}
+
 .skill-item:hover {
   border: 3px solid var(--main-color);
   transform: translateY(-10px) scale(1.03);
